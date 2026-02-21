@@ -258,7 +258,7 @@ If tests fail:
 
 ---
 
-# 📌 Technologies Used
+## 📌 Technologies Used
 
 - dbt
 - DuckDB
@@ -269,11 +269,34 @@ If tests fail:
 
 
 ---
+### 🤝 Contributing & Feedback
 
-### 👤 Author : Bigboy
+This is a portfolio project showcasing production-ready analytics engineering practices. Feedback welcome!
 
-Analytics Engineering with dbt  
-Built as part of Data Engineering learning journey.
+**Contact:**
+- [GitHub](https://github.com/biggymuticha)
+- [LinkedIn](https://www.linkedin.com/in/bigboy-m-57211074/)
+
+
+---
+
+## 📄 License
+
+This project uses NYC TLC Trip Record Data, which is public domain. The code and documentation are available under the MIT License.
+
+**Data Attribution:**
+- NYC Taxi & Limousine Commission (TLC)
+- [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
+---
+
+## 🙏 Acknowledgments
+
+- **DataTalksClub** for the excellent Data Engineering Zoomcamp curriculum. [Link to course](https://github.com/DataTalksClub/data-engineering-zoomcamp/).
+- **dbt Labs** for the modern analytics engineering framework
+- **DuckDB** for the high-performance embedded database
+
+---
 
 ### 📌 Citation
 
