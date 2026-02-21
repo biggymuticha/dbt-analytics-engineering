@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    description: "Raw taxi tables in DuckDB"
+    schema: prod          # <-- your DuckDB tables are in 'prod' schema
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+      - name: fhv_tripdata

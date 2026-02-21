@@ -1,0 +1,15 @@
+
+target/
+dbt_packages/
+logs/
+
+# Data directory
+data/
+seeds/
+seed/
+
+.env
+*.log
+*.parquet
+*.duckdb
+ingest.py
