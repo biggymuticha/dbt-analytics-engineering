@@ -25,10 +25,10 @@ select
     m.service_type,
 
     pickup.zone as pickup_zone,
-    pickup.borough as pickup_borough,
+    --pickup.borough as pickup_borough,
 
     dropoff.zone as dropoff_zone,
-    dropoff.borough as dropoff_borough,
+    --dropoff.borough as dropoff_borough,
 
     m.revenue,
     m.total_trips
