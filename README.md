@@ -269,7 +269,7 @@ If tests fail:
 
 
 ---
-### 🤝 Contributing & Feedback
+### 🤝 Contribution & Feedback
 
 This is a portfolio project showcasing production-ready analytics engineering practices. Feedback welcome!
 
