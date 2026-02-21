@@ -1,6 +1,6 @@
-# Analytics Engineering with dbt + DuckDB
+## Analytics Engineering with dbt + DuckDB
 
-## 📌 Project Overview
+### 📌 Project Overview
 
 This project demonstrates a complete **Analytics Engineering workflow** using:
 
@@ -14,7 +14,7 @@ The goal is to transform raw taxi trip data into analytics-ready models using be
 
 ---
 
-# Project Architecture
+## Project Architecture
 
 Raw Data → Staging Models → Core Models (Facts & Dimensions) → Analytics Queries
 
@@ -30,9 +30,9 @@ We follow the layered approach:
 
 ---
 
-# Setup Instructions
+## Setup Instructions
 
-## 1. Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/biggymuticha/dbt-analytics-engineering.git
@@ -41,7 +41,7 @@ cd dbt-analytics-engineering
 
 ---
 
-## 2. Create Virtual Environment
+### 2. Create Virtual Environment
 
 ```bash
 python -m venv env
@@ -51,7 +51,7 @@ env\Scripts\activate      # Windows
 
 ---
 
-## 3. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install dbt-duckdb
@@ -60,7 +60,7 @@ pip install duckdb
 
 ---
 
-## 4. Run dbt Seed (Load Lookup Data)
+### 4. Run dbt Seed (Load Lookup Data)
 Download csv with zone lookup data from https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
 
 Place it in the *seeds/* folder.
@@ -79,7 +79,7 @@ This loads the **zone lookup file** into DuckDB.
 
 ---
 
-## 5. Build All Models
+### 5. Build All Models
 
 ```bash
 dbt build
@@ -200,9 +200,11 @@ Open the browser → View Lineage Graph.
 Example Flow:
 
 ```
-source → stg_green_tripdata → fact_green_taxi_trips
-                      ↘
-                       dim_zones
+source → tax_zone_lookup    →        dim_zones
+                                                 ↘
+source → stg_green_tripdata → int-trips-unioned → fct-monthly-zone-revenue
+                      
+                       
 ```
 
 ### Value addition:
