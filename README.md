@@ -49,6 +49,9 @@ source env/bin/activate   # Mac/Linux
 env\Scripts\activate      # Windows
 ```
 
+**Verify Packages**
+The required dbt packages (like *dbt_utils*) are already included in the *dbt_packages/* folder for your convenience. You do not need to run *dbt deps* unless you wish to update them.
+
 ---
 
 ### 3. Install Dependencies
