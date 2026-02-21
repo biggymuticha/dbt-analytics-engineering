@@ -274,8 +274,8 @@ If tests fail:
 This is a portfolio project showcasing production-ready analytics engineering practices. Feedback welcome!
 
 **Contact:**
-- [GitHub](https://github.com/biggymuticha)
-- [LinkedIn](https://www.linkedin.com/in/bigboy-m-57211074/)
+- <a href="https://github.com/biggymuticha" target="_blank" rel="noopener noreferrer">GitHub</a>
+- <a href="https://www.linkedin.com/in/bigboy-m-57211074/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 
 ---
@@ -286,13 +286,13 @@ This project uses NYC TLC Trip Record Data, which is public domain. The code and
 
 **Data Attribution:**
 - NYC Taxi & Limousine Commission (TLC)
-- [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page" target="_blank" rel="noopener noreferrer">TLC Trip Record Data</a> 
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **DataTalksClub** for the excellent Data Engineering Zoomcamp curriculum. [Link to course](https://github.com/DataTalksClub/data-engineering-zoomcamp/).
+- **DataTalksClub** for the excellent Data Engineering Zoomcamp curriculum. <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/" target="_blank" rel="noopener noreferrer">Link to course</a>.
 - **dbt Labs** for the modern analytics engineering framework
 - **DuckDB** for the high-performance embedded database
 
