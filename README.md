@@ -273,10 +273,15 @@ If tests fail:
 
 This is a portfolio project showcasing production-ready analytics engineering practices. Feedback welcome!
 
+
 **Contact:**
 - <a href="https://github.com/biggymuticha" target="_blank" rel="noopener noreferrer">GitHub</a>
 - <a href="https://www.linkedin.com/in/bigboy-m-57211074/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
+## 👤 Author
+
+Analytics Engineering with dbt  
+Built as part of Data Engineering learning journey.
 
 ---
 
